@@ -35,23 +35,24 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:scrollbarSize="10dp"
+                        app:srcCompat="@mipmap/icon_logos" />
+
                     <TextView
                         android:id="@+id/textView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
                         android:paddingBottom="20dp"
                         android:text="@string/welcome"
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
-                        android:textSize="24sp"
-                        android:gravity="center_horizontal" />
+                        android:textSize="35sp" />
 
-                    <ImageView
-                        android:id="@+id/imageView1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scrollbarSize="4sp"
-                        app:srcCompat="@mipmap/icon_logos" />
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/email_text_input"
@@ -84,11 +85,10 @@
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:gravity="center_horizontal"
                         android:text="@string/pdhn"
                         android:textAlignment="center"
-                        android:textColor="@color/colorWhite"
-                        android:gravity="center_horizontal" />
+                        android:textColor="@color/colorWhite" />
 
                 </LinearLayout>
 
