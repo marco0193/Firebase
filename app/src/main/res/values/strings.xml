@@ -10,6 +10,7 @@
     <string name="menu_home">Mascotas</string>
     <string name="menu_gallery">Tus Publicaciones</string>
     <string name="menu_slideshow">Perfil</string>
+    <string name="menu_exit">Cerrar Sesión</string>
 
     <string name="home_second">Home Second</string>
 
